@@ -1,4 +1,12 @@
 # Text classification for social media comments 
+The project was done by :
+                  Group 13
+1.	ELIJAH RINDAU             TU01-BE213-0365/2017
+2.	PETER MUTAI KIPKORIR     TU01-BE213-0390/2017
+3.	MOSES ODHIAMBO            TU01-BE213-0417/2017
+4.	GRACE OGUTU                    TU01-BE213-0415/2017
+5.	VALENTINE ATEMA          TU01-BE213-0284/2017.
+
 This project uses a cased Bert model, tensor flow, and is written entirely in Python. Its functionality is to classify Facebook comments according to the department it is targeted at.
 The steps in conducting this project progressed as follows:
   Data collection. Due to the disabling of APIs that could access Facebook data, we copy pasted the comments directly from Facebook and collected over 200 posts as that was the quantity available.
@@ -15,3 +23,6 @@ Cells 6, 7,8and 9 prepare the data then map the labels to the comments and final
 Cell 11 decides the size of the batch while the 12th cell splits the test and training data.
 Cell 13 and 14 creates the model then shows us some information about the model created and ready to be trained.
 The 16th input cell then trains the model and saves it to a local file .The 19th cell then uses the model to access the model in order to make a prediction on the comment that the user enters .
+Challenges and limitations .
+Computer capacity - The machines we had weere not esspecially equped for machine learning and developed various problems along the way .
+Internet connectivity - The model was running online and required a strong internet connection whcih sometimes failed because of geographical limitations .
